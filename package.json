@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./src/cli.js",
-    "build": "pkg ."
+    "build": "pkg .",
+    "pub": "npm publish --access public"
   },
   "bin": {
     "nestpress": "./src/cli.js"
