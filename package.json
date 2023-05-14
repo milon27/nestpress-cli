@@ -4,6 +4,7 @@
   "description": "nestpress cli",
   "main": "index.js",
   "scripts": {
+    "nestpress": "node ./src/cli.js",
     "dev": "node ./src/cli.js",
     "build": "pkg .",
     "pub": "npm publish --access public"

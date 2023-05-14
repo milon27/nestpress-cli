@@ -1,7 +1,7 @@
+#!/usr/bin/env node
 const { program } = require("commander");
 const { execSync } = require("child_process");
 const path = require("path");
-const fs = require("fs");
 const { genSingular } = require("./single");
 const { genMulti } = require("./multi");
 const { isDirectoryEmpty } = require("./util");
@@ -33,7 +33,7 @@ program
     try {
       execSync(`git clone ${initProjectRepo} ${absoluteDirectoryPath}`);
       console.log(`project created to ${absoluteDirectoryPath}.`);
-      console.log(`Now open the project on vscode`);
+      console.log(`========== Now open the project on vscode ==========`);
       console.log(`cd ${directory}`);
       console.log(`code .`);
     } catch (error) {
