@@ -1,0 +1,33 @@
+{
+  "name": "nestpress",
+  "version": "0.0.1",
+  "description": "nestpress cli",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/cli.js",
+    "build": "pkg ."
+  },
+  "bin": {
+    "nestpress": "./src/cli.js"
+  },
+  "keywords": [
+    "nestpress",
+    "milon27"
+  ],
+  "author": {
+    "name": "milon27",
+    "email": "immilon27@gmail.com",
+    "url": "https://milon27.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milon27/nestpress-cli.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "10.0.1"
+  },
+  "devDependencies": {
+    "pkg": "5.8.1"
+  }
+}
