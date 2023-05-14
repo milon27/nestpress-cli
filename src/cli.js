@@ -5,8 +5,9 @@ const path = require("path");
 const { genSingular } = require("./single");
 const { genMulti } = require("./multi");
 const { isDirectoryEmpty } = require("./util");
+const package = require("../package.json");
 
-program.version("0.0.1");
+program.version(package.version);
 
 // ? init project
 

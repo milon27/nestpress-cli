@@ -12,6 +12,7 @@
   "bin": {
     "nestpress": "./src/cli.js"
   },
+  "preferGlobal": true,
   "keywords": [
     "nestpress",
     "milon27"
