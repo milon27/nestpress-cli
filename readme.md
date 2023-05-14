@@ -1,34 +1,36 @@
 # NestPress cli
 
+A CLI to automatically clone the [Nestpress template](https://github.com/milon27/nestpress)
+
 ## use
 
-- create a project with nestpress
+- Create a project with nestpress
 
 ```bash
 # create on current directory
-npx nestpress init .
+npx nestpress@latest init .
 
 # create on sub directory
-npx nestpress init directory_name
+npx nestpress@latest init directory_name
 ```
 
-- create a single module inside feature directory
+- Create a single module inside feature directory
 
 ```bash
 # create a module called admin [you can use m or module command]
-npx nestpress m admin
+npx nestpress@latest m admin
 # or
-npx nestpress module admin -s # [-s is the option for single module, you can omit it by default its single]
+npx nestpress@latest module admin -s # [-s is the option for single module, you can omit it by default its single]
 ```
 
-- create a multi module inside feature directory
+- Create a multi module inside feature directory
 
 ```bash
 # create a module called admin [you can use m or module command]
-npx nestpress m blog -m # [-m means multi module]
+npx nestpress@latest m blog -m # [-m means multi module]
 
 # create a single module inside customer multi module
-npx nestpress m category blog -s # this will create a category module inside blog directory
+npx nestpress@latest m category blog -s # this will create a category module inside blog directory
 
 ```
 
