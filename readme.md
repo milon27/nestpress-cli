@@ -29,7 +29,7 @@ npx nestpress@latest module admin -s # [-s is the option for single module, you 
 # create a module called admin [you can use m or module command]
 npx nestpress@latest m blog -m # [-m means multi module]
 
-# create a single module inside customer multi module
+# create a single module inside blog multi module
 npx nestpress@latest m category blog -s # this will create a category module inside blog directory
 
 ```
